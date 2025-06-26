@@ -2,6 +2,7 @@ How used
 
 This command is used for calibration. 
 It is important that the sensor lies flat - do not move it.
+
 if (BMI160_Init(&hspi1, GPIOA, GPIO_PIN_2)) {
     BMI160_Calibrate();  
 }
